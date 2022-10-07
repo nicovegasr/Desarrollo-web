@@ -1,0 +1,249 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.parrafo-2 {
+  font-family: 'Ibarra Real Nova', serif;
+  font-size: x-large;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.815);
+  margin: 10px;
+  padding: 0px 5px;
+}
+header{
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  font-weight: bolder;
+  color:rgba(255, 255, 255, 0.815);
+  width: 100%;
+  margin: 0 auto;
+  position: center;
+}
+nav {
+  background-color: #282828;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+}
+
+.navbox {
+  width: 100%;
+  position: fixed;
+  border-color: #000; 
+}
+
+ul{
+  list-style: none;
+}
+#menu li>a{
+  color:rgba(255, 255, 255, 0.815);
+  padding: 10px;
+  display: block;
+  text-decoration: none;
+  min-width: 100px;
+}
+#menu li>a:hover{
+  color: #000;
+  background-color: #eaeaea;
+}
+#menu>li{
+  float: left;
+  text-align:center
+}
+#menu>li>ul{
+  display: none;
+}
+#menu>li:hover>ul {
+  display:block;
+}
+
+.bolder {
+  font-weight: bolder;
+}
+
+.listas {
+  color:rgba(255, 255, 255, 0.815);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+
+.left {
+  text-align: left;
+}
+
+.right {
+  text-align: right;
+}
+.center {
+  text-align: center;
+}
+
+.pie-pagina {
+  color: rgba(255, 255, 255, 0.815);
+  margin: 10px;
+  background-color: #282828;
+  border: 5px;
+  border-style: solid;
+  border-color:black;
+  max-width: 2000px;
+  min-width: 510px;
+}
+
+.sobre-mi {
+  text-align: center;
+  font-size: large;
+}
+
+.grupo-1 {
+  width: 100%;
+  max-width: 1960px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+}
+.pie-pagina .grupo-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: left;
+} 
+
+.pie-pagina .grupo-1 .redes a{
+  display: inline-block;
+  line-height: 45px;
+  margin-right: 10px;
+  transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .redes a:hover{
+  border: 5px;
+  border-color: brown;
+  border-style: solid;
+}
+
+.logo {
+  width: 50px ;
+}
+
+.logo-principal {
+  width: 100px;
+}
+
+.divfooter {
+  font-family: 'Edu VIC WA NT Beginner', cursive;
+  background-color: #282828;
+}
+
+.cuerpo {
+  width: 100%;
+  position: relative;  
+  margin: 0 auto;
+  background-color: #454545;
+}
+
+.titulo {
+  font-family: 'Taviraj', serif;
+  font-size: 50px;
+  text-align: center;
+}
+
+.divtittle {
+  padding: 70px 0px 0px 0px;
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.corazon {
+  border: 5px;
+  border-style: solid;
+  border-radius: 100px;
+  border-color: black;
+  width: 30em;
+}
+
+.gasto {
+  border: 5px;
+  border-style: solid;
+  border-radius: 50px;
+  border-color: black;
+  width: 30em;
+}
+
+.parrafo {
+  color: rgba(255, 255, 255, 0.815);
+  font-size: x-large;
+  background-color: #282828;
+  border: 5px;
+  border-style: solid;
+  border-color: black;
+  margin: 10px;
+  padding: 0px 5px;
+}
+
+.justify {
+  font-size: x-large;
+  padding: 20px;
+}
+p {
+  font-family: 'Ibarra Real Nova', serif;
+  text-align: justify;
+}
+
+.derecha {
+  float: right;
+}
+
+.izquierda {
+  float: left;
+}
+
+a {
+  text-decoration: none;
+  text-emphasis-color: red;
+  color: rgba(255, 255, 255, 0.815);
+}
+
+.navbox {
+  display: 	flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.link {
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  text-decoration: underline;
+}
+.link:hover {
+  color: brown;
+}
+
+.form {
+  font-family: 'Courier New', Courier, monospace;
+  color:rgba(255, 255, 255, 0.815);
+  margin: 50px;
+}
+
+.input-text {
+  margin: 10px 0px 5px 0px;
+}
+
+.formulario {
+  background-color: #282828;
+  border: 5px;
+  border-color: #000;
+  border-style: solid;
+  margin: 20px;
+}
+
+.ª {
+  background-color: #282828;
+}
